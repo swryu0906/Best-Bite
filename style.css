@@ -14,6 +14,8 @@ html, body {
 /* Header */
 .nav-pills li a {
 	color: #d8192f;
+	border: 1px solid rgba(216,25,47,1);
+	margin: 0 5px;
 }
 
 .nav-pills li.active a,
@@ -24,6 +26,18 @@ html, body {
 	color:#fff;
 }
 
+#logo {
+	text-decoration: none;
+	color: #000;
+}
+
+.header {
+	padding: 16px 0;
+}
+
+.header .nav-pills {
+	margin-top: 10px;
+}
 
 /* Jumbotron */
 .jumbotron {
