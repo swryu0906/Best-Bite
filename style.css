@@ -10,11 +10,20 @@ html, body {
 	margin: 0 auto;
 }
 
-
 /* Header */
+.header {
+	padding: 20px 0;
+}
+
+.header h1 a {
+	text-decoration: none;
+	color: #000;
+}
+
 .nav-pills li a {
 	color: #d8192f;
 	border: 1px solid rgba(216,25,47,1);
+	padding: 10px 22px;
 	margin: 0 5px;
 }
 
@@ -26,24 +35,28 @@ html, body {
 	color:#fff;
 }
 
-#logo {
-	text-decoration: none;
-	color: #000;
-}
-
-.header {
-	padding: 16px 0;
-}
-
-.header .nav-pills {
+.nav-pills {
 	margin-top: 10px;
 }
 
 /* Jumbotron */
 .jumbotron {
 	height: 500px;
+	background: url("images/bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
 }
 
+.jumbotron .container {
+	margin-top: 100px;
+}
+
+.jumbotron h2 {
+	font-size: 54px;
+}
 
 /* Banner */
 .banner, .supporting {
