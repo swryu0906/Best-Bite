@@ -71,6 +71,22 @@ html, body {
 }
 
 /* Section */
+.section {
+	padding: 30px 0 50px;
+}
+
 .section h4 {
+	color: #d9192f;
+}
+
+/* Footer */
+.footer {
+	padding: 30px 0;
+	background-color: #eeeeee;
+	font-size: 14px;
+}
+
+.footer a {
+	text-decoration: none;
 	color: #d9192f;
 }
